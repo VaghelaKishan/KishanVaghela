@@ -48,16 +48,16 @@ html{
         max-width: 1152px;
         padding: 0 15px;
         margin: 0 auto;
-        
+       
         }
         .hero{
         padding-top: 2rem;
         padding-bottom: 3rem;
-        background-color: rgb(0, 0, 0);
+        background-color: var(--bgDark);
         }
         .hero .left img{
         width: 400px;
-        margin: 43px;
+        margin: 43px 150px;
         }
         .hero .right {
         color: var(--bgDark);
@@ -109,6 +109,7 @@ html{
             cursor: pointer;
             text-transform: uppercase;
             transition: all .2s ease;
+            border-radius: 4px;
             }
             .btn-primary{
             background-color: var(--primary);
@@ -178,10 +179,10 @@ html{
 
 
                 section#services{
-                    background: rgb(17, 17, 17)
+                    background:var(--bgDark);
                     }
                     .services-head{
-                    color: rgb(10, 9, 9);
+                    color: var(--bgDark);
                     text-align: center;
                     margin-bottom: 1rem;
                     line-height: 0.5rem;

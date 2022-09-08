@@ -1,109 +1,115 @@
-
 body{
-    background-color: black;
-    height: 370px; 
-    padding: 3px 28px;
+    background-color: var(--bgDark);
 }
-section #services{
-    flex-direction: column;
+section#about{
+    background-color: var(--white);
+    width: 120%;
 }
-#services{
-    flex-direction: column;
+header nav{
+flex-direction: column;
 }
-
-header nav .left a {
-    flex-direction: column;
-}
- header nav{
-    flex-direction:row;
-} 
-#hero{
-    height: 400px;
-    flex-direction: column;
-    
-}
-#hero::before{
-    height: 500px;
-    flex-direction: column;
-    
-}
-#hero .right{
-    font-size: 13px;
-    flex-direction: column;
-} 
-
-section#about p{
-    color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* Navigation */
-header {
-    flex-direction: column;
-}
-
-header nav .left a{
+#navbar ul li a{
     font-size: 1rem;
     padding: 0px 7px;
     padding-bottom: 8px;
 }
-/* Home section */
-body{
-    height: 370px; 
-    padding: 3px 28px;
+header .container{
+    background-color: var(--bgDark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    }
+
+.hero{
+    height: 730px;
+    padding-top: 2rem;
+    padding-bottom: 9rem;
+}
+.hero::before{
+    height: 300px;
+}
+header nav .left a{
+    font-size: 10px;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+header nav .logo{
+    flex-direction: column;
+    }
+    div{
+        flex-direction: column;
+    }
+.logo img{
+    width: 40px;
+    margin-left: 138px;
 }
 
-body {
-    height: 880px; 
+.btn-primary{
+    margin-top: 1rem;
+    padding: 0px;
 }
 
-body{
-    font-size: 13px;
+.hero .left img{
+    width: 140px;
+    margin: 15px;
+    }
+
+    .hero .right h6{
+        font-size: 1rem;
+    }
+    .hero .right h1{
+        font-size: 2rem;
+    }
+    .hero .right p{
+        font-size: 1rem;
+    }
+
+    .btn-secondary{
+        font-size: 13px;
+        padding: 4px;
+
+    }
+
+    section#about .socials {
+        display: flex;
+        flex-direction: initial;
+
+    }
+    section#about .socials img{
+        height: 33px;
+    }
+
+    #about img {
+        height: 150px;
+    }
+
+
+.flex-1 {
+    flex: 1;
+    padding-top: 25px;
 }
 
-/* Services section  */
+.container{
+    flex-direction: column;
+}
 #services{
     flex-direction: column;
 }
+.services-head{
+    margin: 19px 116px;S
+}
 
-#services .box { 
+section#services{
+    margin: -9%;
+    padding: 3%;
+    height: 80vh;
+}
+section#services .card-grid .card{
     padding: 14px;
-    margin: 2px 0px; 
+    margin: 2px 0px;
     margin-bottom: 20px;
 }
-
-/* Clients section */
-#clients{
-    flex-wrap: wrap;
+.services-head + p{
+margin: 37px 70px;
+padding: 20px 11px;
+justify-content: center;
+text-align: center;
 }
-
-#clients img{
-    width: 66px;
-    padding: 6px;
-    height: auto;
-}
-
-/* Contact us section */
-#contact-box form{
-    width:80%;
-}
-/* Footer */
-
-/* Utility classes */
-.h-primary{
-    font-size:26px;
-}
-.btn{
-    font-size: 13px;
-    padding: 4px 8px;
-} 
