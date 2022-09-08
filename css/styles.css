@@ -233,7 +233,7 @@ html{
                     line-height: 1.6;
                     }
                     ul li{
-                        list-style: none;
+                        list-style:disc;
                         position:relative;
                     }
                     section#services .card-grid .card:hover{
