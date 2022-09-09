@@ -108,9 +108,13 @@ section#services{
     height: 56vh;
 }
 section#services .card-grid .card{
-    padding: 14px;
+    /* padding: 14px;
     margin: 2px 0px;
+    margin-bottom: 20px; */
+    padding: 20px 1px;
+    margin: 5px 7px;
     margin-bottom: 20px;
+    display: flex;
 }
 .services-head + p{
 margin: 37px 70px;

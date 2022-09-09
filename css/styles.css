@@ -53,13 +53,27 @@ html{
        
         }
         .hero{
-        padding-top: 2rem;
+        padding-top:  6rem;;
         padding-bottom: 3rem;
         background-color: var(--bgDark);
         }
         .hero .left img{
-        width: 400px;
-        margin: 43px 150px;
+            width: 307px;
+            margin: 43px 150px;
+            position: relative;
+            animation-name: kd;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: reverse;
+        }
+        @keyframes kd{
+            from{
+                width: 250px;
+            }
+            to{
+                width: 400px;
+            }
         }
         .hero .right {
         color: var(--bgDark);
@@ -213,19 +227,22 @@ html{
                     position: relative;
                     text-align: center;
                     transition: all .2s ease;
+                    border-radius: 13px;
                     }
                     section#services .card-grid .card img{
-                    position: absolute;
-                    top: -1.5rem;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    color: var();
-                    filter: invert(1);
+                        position: absolute;
+                        top: -1.5rem;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        color: var();
+                        /* filter: invert(1); */
+                        border-radius: 6px;
                     }
                     section#services .card-grid .card h2{
                     font-weight: 600;
                     font-size: 1.2rem;
                     margin-bottom: 0.5rem;
+                    color: darkcyan;
                     }
                     section#services .card-grid .card p{
                     font-family: 'Lato', sans-serif;
