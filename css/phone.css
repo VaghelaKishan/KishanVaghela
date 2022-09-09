@@ -116,6 +116,12 @@ section#services .card-grid .card{
     margin-bottom: 20px;
     display: flex;
 }
+section#services .card-grid{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 7rem;
+    margin-left: 30px;
+}
 .services-head + p{
 margin: 37px 70px;
 padding: 20px 11px;
