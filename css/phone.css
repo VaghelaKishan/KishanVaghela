@@ -7,6 +7,7 @@ section#about{
 }
 header nav{
 flex-direction: column;
+    margin-left: 2rem;
 }
 #navbar ul li a{
     font-size: 1rem;
@@ -41,13 +42,14 @@ header nav .logo{
         flex-direction: column;
     }
 .logo img{
-    width: 47px;
-    margin-left: 151px;
+    width: 50px;
+    margin-left: 138px;
 }
 
 .btn-primary{
     margin-top: 1rem;
-    padding: 0px;
+    margin-left: 0rem;
+    padding: 4px;
 }
 
 .hero .left img{
@@ -77,6 +79,10 @@ header nav .logo{
         display: flex;
         flex-direction: initial;
 
+    }
+    section{
+    padding-top: 2rem;
+    padding-bottom: 6rem;
     }
     section#about .socials img{
         height: 33px;
